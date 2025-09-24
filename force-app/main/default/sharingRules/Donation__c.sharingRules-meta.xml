@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Donations_with_Donor_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Donations with Donor Managers</label>
+        <sharedTo>
+            <group>Donor_Managers</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Donor_Managers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

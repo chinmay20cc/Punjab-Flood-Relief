@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_phone_or_email_is_provided</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( $User.Email ) &amp;&amp; ISBLANK( $User.Phone )</errorConditionFormula>
+    <errorMessage>Volunteer must have at least one contact detail</errorMessage>
+</ValidationRule>
